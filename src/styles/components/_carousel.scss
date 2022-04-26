@@ -1,0 +1,38 @@
+.carousel {
+  width: 50%;
+  height: 600px;
+  display: flex;
+  box-shadow: $shadow;
+  color: #a0a0a0;
+  font-family: $font-2;
+  border-radius: $radius;
+  overflow: hidden;
+  .slide1 {
+    @include slide;
+    background: url(../../assets/DSC_4192.jpg) center/cover;
+  }
+  .slide2 {
+    @include slide;
+    background: url(../../assets/DSC_4241.jpg) center/cover;
+  }
+  .slide3 {
+    @include slide;
+    background: url(../../assets/Mains_bebe.jpg) center/cover;
+  }
+  .slide4 {
+    @include slide;
+    background: url(../../assets/Grossesse.jpg) center/cover;
+  }
+  .slide5 {
+    box-shadow: $shadow;
+    background: url(../../assets/Technique_bebe.jpg) center/cover;
+  }
+  .slide6 {
+    @include slide;
+    background: url(../../assets/Technique_dos.jpg) center/cover;
+  }
+
+  @media screen and (max-width: 830px) {
+    width: 100%;
+  }
+}

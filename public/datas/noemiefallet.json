@@ -1,0 +1,32 @@
+{
+  "diplomes" : [
+    {
+      "date" : "2015",
+      "nom" : "Diplôme d'ostéopathe (D.O.) - École Supérieure d'Ostéopathie de Paris (ESO Paris Suposteo)"
+    }
+  ],
+  "formations" : [
+    {
+      "date" : "2016",
+      "nom" : "Formation en ostéopathie pédiatrique"
+    },
+    {
+      "date" : "2015",
+      "nom" : "Formation en ostéopathie aquatique - École Supérieure d'Ostéopathie de Paris (ESO Paris Suposteo)"
+    }
+  ],
+  "experiences" : [
+    {
+      "date" : "Depuis 2019",
+      "nom" : "Cabinet Salles d'Aude"
+    },
+    {
+      "date" : "Depuis 2019",
+      "nom" : "Cabinet Sallèles-d'Aude"
+    },
+    {
+      "date" : "2018 - 2019",
+      "nom" : "Cabinet - Titulaire en Cabinet libéral (77)"
+    }
+  ]
+}

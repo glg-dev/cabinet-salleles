@@ -1,0 +1,12 @@
+.iframe {
+  padding-top: $padding;
+  iframe {
+    border-radius: 25px;
+    box-shadow: $shadow;
+    transition: .3s;
+    transform-origin: center;
+    &:hover {
+      transform: scale(1.02);
+    }
+  }
+}

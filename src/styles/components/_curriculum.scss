@@ -1,0 +1,21 @@
+.curriculum {
+  padding: $padding;
+  border-top: 1px solid $primary;
+  &:nth-child(1) {
+    border-top: none;
+  }
+  .article-content{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px 30px;
+    margin-top: 10px;
+    &:nth-of-type(odd) .date,
+    &:nth-of-type(even) .name {
+      font-weight: bold;
+      color: $secondary;
+    }
+  }
+  span {
+    font-size: 12px;
+  }
+}

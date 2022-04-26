@@ -1,0 +1,16 @@
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 25px 50px;
+  padding: 25px;
+  .tag {
+    color: $black;
+    padding: 10px;
+    background: #FFF;
+    border: 1px solid $primary;
+    box-shadow: $shadow;
+    border-radius: 25px;
+  }
+}

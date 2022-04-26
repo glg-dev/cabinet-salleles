@@ -1,0 +1,17 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: $padding;
+  background: $secondary;
+  color: white;
+  padding: $padding / 2;
+  font-size: .75rem;
+  z-index: 2;
+  a:hover {
+    transform: scale(1.3);
+  }
+}

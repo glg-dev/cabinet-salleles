@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika&family=Italianno&family=Merienda&display=swap');
+
+
+$font-1: 'Italianno', cursive;
+$font-2: 'Andika', sans-serif;
+$font-3: 'Merienda', cursive;
+
+$primary: #74ebdf;
+$secondary: #1e6a88;
+$black: #2e2f30;
+$white: #d3f1f0;
+$bg-gradient: linear-gradient(to right, $primary, $secondary);
+$white-gradient: linear-gradient(45deg, $white, transparent);
+$darkmode-font: #d3e9f3;
+$facebook: #1877f2;
+$doctolib: #107ACA;
+
+$padding: 20px;
+$radius: 15px;
+$shadow: 1px 1px 4px 0 $secondary;
+
+@mixin card {
+  border: 1px solid $primary;
+  border-radius: $radius;
+  box-shadow: $shadow;
+  padding: $padding;
+
+}
+
+@mixin slide {
+  padding: $padding;
+  border-radius: $radius;
+  box-shadow: $shadow;
+}
+
+::-webkit-scrollbar {
+  width: 9px;
+}
+
+::-webkit-scrollbar-track {
+  background: $secondary;
+  padding: 1px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: $primary;
+  border-radius: 7px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  transition: all .3s;
+  scrollbar-width: thin;
+  scrollbar-color: $primary $secondary;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  color: $black;
+  font-family: $font-2;
+  overflow-x: hidden;
+  background: url(../assets/Croquis.jpg) center/cover fixed;
+  text-align: justify;
+}
+
+.home, .blog, .profiles, .contact .container {
+  padding: $padding;
+  margin: 0 $padding*4 30px $padding*4;
+  background: #FFF;
+  border-radius: $radius;
+  @media screen and (max-width: 600px) {
+    margin: 0 $padding 30px $padding;
+    padding: 0;
+  }
+}
+
+h1, h2 {
+  font-family: $font-3;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p {
+  text-align: justify;
+}
+
+.article-card {
+  @include card;
+}
+
+.blue-container {
+  background: $white;
+}
+
+.white-container {
+  background: #FFF;
+}
+
+
+button.rdv-doctolib {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #FFF;
+  padding: $padding;
+  background: $doctolib;
+  border-radius: 8px;
+  border: none;
+  box-shadow: $shadow;
+  &:hover {
+    background: #0362af;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  body {
+    font-size: 14px;
+  }
+}

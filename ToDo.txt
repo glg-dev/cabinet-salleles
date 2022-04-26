@@ -1,0 +1,2 @@
+responsive < 500px
+404

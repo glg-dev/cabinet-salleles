@@ -1,0 +1,108 @@
+.contact {
+  border-radius: $radius;
+  display: flex;
+  .container {
+    border: 2px solid $primary;
+    margin-bottom: $padding;
+    padding: $padding;
+    border-radius: $radius;
+    box-shadow: $shadow;
+  }
+  h1 {
+    text-align: center;
+  }
+  i {
+    transition: all .2s;
+  }
+  iframe {
+    width: 600px;
+    height: 450px;
+    border: 0;
+  }
+  .address-container {
+    margin-bottom: $padding*4;
+    .address {
+      display: flex;
+      align-items: center;
+      gap: $padding;
+      i {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: $secondary;
+        transform: rotateX(0);
+      }
+      &:hover i {
+        transform: rotateX(360deg);
+      }
+    }
+  }
+  .join-me {
+    margin-bottom: 200px;
+    li {
+      list-style: none;
+      display: flex;
+      margin-top: $padding;
+      justify-content: flex-start;
+      align-items: center;
+      gap: $padding;
+      cursor: pointer;
+      &:hover i {
+        color: $secondary;
+        transform: scale(1.1);
+      }
+    }
+    a {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: $padding;
+      margin-top: $padding;
+      &:hover {
+        .fa-facebook {
+          color: $facebook;
+          transform: scale(1.1);
+        }
+        .fa-calendar-check {
+          color: $doctolib;
+          transform: scale(1.1);
+        }
+        .fa-google {
+          color: #ea4335;
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1650px) {
+  .contact {
+    .contact-text {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .contact {
+    flex-direction: column;
+    .contact-text {
+      flex-direction: row;
+      gap: $padding;
+    }
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .contact {
+    iframe {
+      width: 100%;
+    }
+    .contact-text {
+      flex-direction: column;
+      gap: 0;
+    }
+  }
+}

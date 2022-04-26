@@ -1,0 +1,24 @@
+{
+  "diplomes" : [
+    {
+      "date" : "2018",
+      "nom" : "Diplôme d'Ostéopathie - Institut Supérieur d'Ostéopathie du Grand Montpellier (ISOGM-IFBO)"
+    }
+  ],
+  "formations" : [
+    {
+      "date" : "2021",
+      "nom" : "Ostéopathie Uro-génitale féminine - IFFCO"
+    },
+    {
+      "date" : "2020",
+      "nom" : "Ostéopathie Périnatale - CFPCO"
+    }
+  ],
+  "experiences" : [
+    {
+      "date" : "Depuis 2018",
+      "nom" : "Cabinet d'ostéopathie Villeneuve-lès-Béziers"
+    }
+  ]
+}

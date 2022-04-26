@@ -1,0 +1,31 @@
+body.dark {
+  color: #000;
+  #root {
+    background: rgba($color: #000, $alpha: .6);
+  }
+  .title {
+    background: rgba($color: #000, $alpha: .6);
+    color: $primary;
+    h1, h2 {
+      text-shadow: 1px 0 $secondary
+    }
+  }
+  .nav-container {
+    background: rgba($color: #000, $alpha: .4);
+    a {
+      color: $darkmode-font;
+      &.navActive {
+        background: rgba($color: #FFF, $alpha: .4);
+        color: $secondary;
+      }
+  
+    }
+  }
+  .home, .blog, .profiles, .contact .container{
+    background: #888;
+  }
+  .article-card, .presentation .presentation__text {
+    background: $secondary;
+    color: $darkmode-font;
+  }
+}

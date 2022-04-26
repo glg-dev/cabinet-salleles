@@ -1,0 +1,38 @@
+.home {
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  .presentation {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: $padding;
+    .presentation__text {
+      background: #FFF;
+      border: 1px solid $primary;
+      border-radius: 15px;
+      box-shadow: $shadow;
+      padding: $padding;
+      width: 50%;
+      height: 600px;
+    }
+  }
+  .article-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  button.rdv-doctolib {
+    cursor: pointer;
+  }
+
+  @media screen and (max-width: 830px) {
+    .presentation {
+      flex-direction: column-reverse;
+      .presentation__text {
+        width: 100%;
+      }
+    }
+  }
+}

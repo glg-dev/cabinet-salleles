@@ -1,0 +1,88 @@
+{
+  "diplomes" : [
+    {
+      "date" : "2015",
+      "nom" : "Diplôme d'ostéopathe (D.O.) - École Supérieure d'Ostéopathie de Paris (ESO Paris Suposteo)"
+    },
+    {
+      "date" : "2009",
+      "nom" : "D.E.U.G. Sciences de la vie - Université Paris 12 - Créteil"
+    }
+
+  ],
+  "formations" : [
+    {
+      "date" : "2020",
+      "nom" : "Formation en approche ostéopathique de l'enfant - Ostéo Bébé"
+    },
+    {
+      "date" : "2020",
+      "nom" : "Formation Plagiocéphalies, torticolis et asymétries cranio faciales - Ostéo-Évolution"
+    },
+    {
+      "date" : "2019",
+      "nom" : "Formation en ostéopathie obstétrique pré- et post-natale - Hérophile Formations"
+    },
+    {
+      "date" : "2019",
+      "nom" : "Formation en approche ostéopathique des bébés - Ostéo Bébé"
+    },
+    {
+      "date" : "2019",
+      "nom" : "Formation Ostéopathie et fertilité - Centre de Formation Professionnelle Continue en Ostéopathie et thérapies manuelles (CFPCO)"
+    },
+    {
+      "date" : "2019",
+      "nom" : "Ostéopathie et fertilité - Ostéonat"
+    },
+    {
+      "date" : "2018",
+      "nom" : "Formation en ostéopathie périnatale : suivi de grossesse et préparation ostéopathique à l'accouchement - Centre de Formation Professionnelle Continue en Ostéopathie et thérapies manuelles (CFPCO)"
+    },
+    {
+      "date" : "2018",
+      "nom" : "Formation en Phyto-Aromathérapie - École Supérieure d'Ostéopathie de Paris (ESO Paris Suposteo)"
+    },
+    {
+      "date" : "2017",
+      "nom" : "Formation en ostéopathie pédiatrique : pratique pour les premiers jours de la vie - Centre de Formation Professionnelle Continue en Ostéopathie et thérapies manuelles (CFPCO)"
+    },
+    {
+      "date" : "2015",
+      "nom" : "Formation en ostéopathie aquatique - École Supérieure d'Ostéopathie de Paris (ESO Paris Suposteo)"
+    }
+  ],
+  "experiences" : [
+    {
+      "date" : "Depuis 2018",
+      "nom" : "Cabinet Salles d'Aude"
+    },
+    {
+      "date" : "Depuis 2018",
+      "nom" : "Cabinet - Titulaire Cabinet libéral à Sallèles-d'Aude (11)"
+    },
+    {
+      "date" : "2016 - 2018",
+      "nom" : "Cabinet - Titulaire en Cabinet libéral (77)"
+    },
+    {
+      "date" : "2017 - 2018",
+      "nom" : "Cabinet - Assistanat et remplacements aux cabinets libéraux (91) et (77) et à Salles-d'Aude (11)"
+    },
+    {
+      "date" : "2014 - 2015",
+      "nom" : "Stagiaire - Clinique Vauban - Livry-Gargan - Maternité"
+    },
+    {
+      "date" : "2014 - 2015",
+      "nom" : "Stagiaire - Centre Hospitalier René Dubos - Pontoise - Service maison du bébé"
+    }
+  ],
+  "travaux" : [
+    {
+      "date" : "2020",
+      "nom" : "Aquatic Osteopathy Treatment Assessment by Infrared Thermography on Healthy Subjects After Thermoneutral Water Immersion - Article",
+      "url" : "https://www.researchgate.net/publication/343805958_Aquatic_Osteopathy_Treatment_Assessment_by_Infrared_Thermography_on_Healthy_Subjects_After_Thermoneutral_Water_Immersion"
+    }
+  ]
+}

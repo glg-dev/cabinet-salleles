@@ -21,7 +21,21 @@ function Home() {
       </div>
       <div className="article-card blue-container">
         <h2>Pourquoi venir consulter ?</h2>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id exercitationem ex minima praesentium architecto voluptatibus sint nam sequi ipsa culpa, ea unde repellendus adipisci a saepe similique dignissimos aspernatur rerum quam velit, inventore nihil perferendis impedit! Illum accusamus est dicta.</p>
+        <p>Le désir d'enfant : <br />
+          En effet, il arrive que médicalement, rien ne cloche et pourtant, bébé tarde à arriver.<br />
+          Il se peut que l'intervention d'un ostéopathe qualifié vous aide dans l'accompagnement de ce projet bébé. Une approche simple, précise et adéquate (aucun acte interne ne sera pratiqué par votre ostéopathe), va permettre de s'assurer que votre corps fonctionne correctement pour permettre à la nature d'opérer (mécanique, hormonal, viscéral, etc.).<br />
+          Le corps humain est une mécanique magique et capricieuse, c'est parfois "un petit rien" qui fait bloquer tout un système (ou apparaître une douleur, un symptôme), ici une fertilité amoindrie. Je me suis donc particulièrement intéressée à la prise en charge ostéopathique spécifique de la fertilité. </p>
+          
+          <p>La grossesse :<br />
+          Ensuite, quand tout s'est bien passé, que bébé a fait son nid, on se revoit pour le suivi de votre grossesse ainsi que pour la préparation à votre accouchement. La nature est bien faite, mais il faut parfois un petit coup de main pour l'y aider. Ce sont de grands changements pour votre corps, il est parfois intéressant de bien l'accompagner.<br />
+          Pensez également au bilan post-partum (pour maman) et du nouveau-né (dès la sortie de maternité) afin de bien commencer cette nouvelle partie de votre vie.</p>
+
+          <p>De l'enfance au grand âge :<br />
+          Chaque étape de la vie a son importance dans le suivi ostéopathique. <br />
+          Bien que ce suivi ne soit pas toujours indispensable mais fortement recommandé, un suivi ostéopathique régulier dans les grandes étapes de votre vie vous permettra de soulager et prévenir vos douleurs, et de vous garder en bonne santé. <br />
+          Pour vous et votre famille, du nourrisson à l'enfant puis l'adolescent, le sportif et la personne âgée, votre ostéopathe sera là pour vous accompagner.<br />
+          Je suis également formée pour la vérification (prise de mesures) des déformations crâniennes (plagiocéphalie et brachycéphalie).<br />
+          Et je suis actuellement en formation pour la vérification et la prise en charge des freins restrictifs buccaux. </p>
         <Tags />
         <Button classButton='rdv-doctolib' />
       </div>

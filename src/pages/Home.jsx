@@ -36,7 +36,7 @@ function Home() {
           Pour vous et votre famille, du nourrisson à l'enfant puis l'adolescent, le sportif et la personne âgée, votre ostéopathe sera là pour vous accompagner.<br />
           Je suis également formée pour la vérification (prise de mesures) des déformations crâniennes (plagiocéphalie et brachycéphalie).<br />
           Et je suis actuellement en formation pour la vérification et la prise en charge des freins restrictifs buccaux. </p>
-        <Tags />
+        {/* <Tags /> */}
         <Button classButton='rdv-doctolib' />
       </div>
       <div className="article-card white-container">

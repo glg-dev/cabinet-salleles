@@ -1,4 +1,5 @@
 @import './settings.scss';
+@import './components/button';
 @import './components/carousel';
 @import './components/curriculum';
 @import './components/darkmodeButton';
@@ -10,5 +11,6 @@
 @import './components/tags';
 @import './pages/blog';
 @import './pages/contact';
+@import './pages/error';
 @import './pages/home';
 @import './pages/profiles';

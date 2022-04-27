@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from '../components/Button';
 import Carousel from '../components/Carousel';
 import Tags from '../components/Tags';
 
@@ -22,7 +23,7 @@ function Home() {
         <h2>Pourquoi venir consulter ?</h2>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id exercitationem ex minima praesentium architecto voluptatibus sint nam sequi ipsa culpa, ea unde repellendus adipisci a saepe similique dignissimos aspernatur rerum quam velit, inventore nihil perferendis impedit! Illum accusamus est dicta.</p>
         <Tags />
-        <button className='rdv-doctolib'><a href="https://www.doctolib.fr/osteopathe/salleles-d-aude/floriane-girollet" target="_blank" rel="noopener noreferrer">Prendre rendez-vous sur Doctolib</a></button>
+        <Button classButton='rdv-doctolib' />
       </div>
       <div className="article-card white-container">
         <h2>Quelques mots sur l'ostéopathie</h2>

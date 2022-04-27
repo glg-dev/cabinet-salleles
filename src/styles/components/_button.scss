@@ -1,0 +1,24 @@
+button.rdv-doctolib {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #FFF;
+  padding: $padding;
+  background: $doctolib;
+  border-radius: 8px;
+  border: none;
+  box-shadow: $shadow;
+  &:hover {
+    background: #0362af;
+  }
+  &.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    margin: $padding*2 $padding;
+  }
+}

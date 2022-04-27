@@ -80,6 +80,9 @@ body {
 
 h1, h2 {
   font-family: $font-3;
+  @media screen and (max-width: 418px) {
+    text-align: center;
+  }    
 }
 
 a {
@@ -101,24 +104,6 @@ p {
 
 .white-container {
   background: #FFF;
-}
-
-
-button.rdv-doctolib {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-transform: uppercase;
-  font-weight: bold;
-  color: #FFF;
-  padding: $padding;
-  background: $doctolib;
-  border-radius: 8px;
-  border: none;
-  box-shadow: $shadow;
-  &:hover {
-    background: #0362af;
-  }
 }
 
 @media screen and (max-width: 740px) {

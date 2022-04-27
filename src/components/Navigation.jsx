@@ -22,10 +22,10 @@ const Navigation = () => {
         <i className="fas fa-2x fa-user"></i>
         Accueil
       </NavLink>
-      <NavLink to='/blog' className={(nav) => (nav.isActive ? "navActive" : "")}>
+      {/* <NavLink to='/blog' className={(nav) => (nav.isActive ? "navActive" : "")}>
         <i className="fas fa-2x fa-newspaper"></i>
         Articles
-      </NavLink>
+      </NavLink> */}
       <NavLink to='/profiles' className={(nav) => (nav.isActive ? "navActive" : "")}>
         <i className="fas fa-2x fa-address-card"></i>
         Qui sommes-nous

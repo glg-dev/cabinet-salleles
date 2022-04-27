@@ -32,10 +32,10 @@ const Carousel = () => {
       >
         <SwiperSlide className='slide1'>Marie-Élise G. Photography - Sallèles d'Aude</SwiperSlide>
         <SwiperSlide className='slide2'>Marie-Élise G. Photography - Sallèles d'Aude</SwiperSlide>
-        <SwiperSlide className='slide3'></SwiperSlide>
-        <SwiperSlide className='slide4'></SwiperSlide>
-        <SwiperSlide className='slide5'></SwiperSlide>
-        <SwiperSlide className='slide6'></SwiperSlide>
+        <SwiperSlide className='slide3'>Liv Bruce - Unsplash</SwiperSlide>
+        <SwiperSlide className='slide4'>Janko Ferlic - Unsplash</SwiperSlide>
+        <SwiperSlide className='slide5'>Flavia Gava - Unsplash</SwiperSlide>
+        <SwiperSlide className='slide6'>Toa Heftiba - Unsplash</SwiperSlide>
       </Swiper>
     </div>
   );

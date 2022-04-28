@@ -28,4 +28,15 @@ body.dark {
     background: $secondary;
     color: $darkmode-font;
   }
+  .profiles h2 {
+    background: transparent;
+    text-shadow: none;
+  }
+  .curriculum {
+    background: $secondary;
+    .article-content:nth-of-type(odd) .date,
+    .article-content:nth-of-type(even) .name  {
+      color: $darkmode-font;
+    }
+  }
 }

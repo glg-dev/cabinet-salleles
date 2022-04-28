@@ -32,7 +32,7 @@ body.dark {
     background: transparent;
     text-shadow: none;
   }
-  .curriculum {
+  .curriculum, .datas {
     background: $secondary;
     .article-content:nth-of-type(odd) .date,
     .article-content:nth-of-type(even) .name  {

@@ -6,29 +6,35 @@
   margin-bottom: 100px;
   
   .header-bg {
-    background: url(../../assets/Croquis.jpg) center/cover fixed;
     width: 100%;
     height: 100%;
   }
   .title {
+    display: flex;
+    justify-content: space-between;
     position: absolute;
     top: 0;
     left: 0;
-    padding: $padding;
-    padding-left: $padding * 5;
+    padding: $padding $padding*3;
     border-bottom: 0;
     height: 100%;
     width: 100%;
     color: $secondary;
-    &:after {
-      content: '';
-      position: absolute;
-      top: 0;
-      right: 100px;
-    height: 200px;
-    width: 200px;
-    background: url('../../assets/osteo_logo.png') no-repeat;
-    filter: brightness(25%);
+    .title-content {
+      padding: 0 $padding;
+      background: rgba(255, 255, 255, 0.16);
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(5px);
+      -webkit-backdrop-filter: blur(5px);
+      border-radius: 16px;    
+    }
+    .title-img {
+      height: 100%;
+      img {
+        height: 100%;
+        object-fit: cover;
+        filter: brightness(50%);
+      }
     }
     h1 {
       font-family: $font-1;
@@ -39,7 +45,7 @@
     h2 {
       font-family: $font-1;
       font-weight: 500;
-      font-size: 2.7em;
+      font-size: 3.7em;
       text-shadow: 1px 0 $secondary, 2px 0 $primary;
     }
   }
@@ -53,20 +59,31 @@
       h2 {
         font-size: 2em;
       }
-      &::after {
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    height: 170px;
+    .title {
+      padding-left: $padding*2;
+      img {
         display: none;
       }
     }
   }
 
-  @media screen and (max-width: 500px) {
-    height: 170px;
+  @media screen and (max-width: 414px) {
+    // height: 250px;
     .title {
-      padding-left: $padding*2;
+      padding: $padding
     }
   }
-
-  @media screen and (max-width: 330px) {
-    height: 250px;
+  @media screen and (max-width: 357px) {
+    .title h1 {
+      font-size: 2.5em;
+    }
+    .title h2 {
+      font-size: 1.5em;
+    }
   }
 }

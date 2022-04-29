@@ -28,7 +28,7 @@ const Navigation = () => {
       </NavLink> */}
       <NavLink to='/profiles' className={(nav) => (nav.isActive ? "navActive" : "")}>
         <i className="fas fa-2x fa-address-card"></i>
-        Qui sommes-nous
+        L'équipe
       </NavLink>
       <NavLink to='/contact' className={(nav) => (nav.isActive ? "navActive" : "")}>
         <i className="fas fa-2x fa-phone"></i>

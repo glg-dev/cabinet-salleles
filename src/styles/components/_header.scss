@@ -4,7 +4,13 @@
   height: 220px;
   color: $secondary;
   margin-bottom: 100px;
-  
+  background: rgba(116, 235, 223, 0.16);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 16px; 
+  border: 1px solid rgba(220, 220, 220, 0.56);   
+
   .header-bg {
     width: 100%;
     height: 100%;
@@ -22,11 +28,6 @@
     color: $secondary;
     .title-content {
       padding: 0 $padding $padding $padding;
-      background: rgba(255, 255, 255, 0.16);
-      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-      backdrop-filter: blur(5px);
-      -webkit-backdrop-filter: blur(5px);
-      border-radius: 16px;    
     }
     .title-img {
       height: 100%;
@@ -41,13 +42,13 @@
       font-family: $font-1;
       font-weight: 500;
       font-size: 5.5em;
-      text-shadow: 1px 0 $secondary, 2px 0 $primary;
+      text-shadow: 1px 0 $secondary, 2px 0 $primary, 3px 0 #000;
     }
     h2 {
       font-family: $font-1;
       font-weight: 500;
       font-size: 3.7em;
-      text-shadow: 1px 0 $secondary, 2px 0 $primary;
+      text-shadow: 1px 0 $secondary, 2px 0 $primary, 3px 0 #000;
     }
   }
 

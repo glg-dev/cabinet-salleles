@@ -20,5 +20,9 @@ button.rdv-doctolib {
     right: 0;
     z-index: 1;
     margin: $padding*2 $padding;
+    opacity: 0.9;
+    &:hover {
+      opacity: 1;
+    }
   }
 }

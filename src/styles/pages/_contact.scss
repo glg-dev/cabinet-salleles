@@ -3,8 +3,8 @@
   display: flex;
   .container {
     border: 2px solid $primary;
-    margin-bottom: $padding;
-    padding: $padding;
+    margin-bottom: $space;
+    padding: $space;
     border-radius: $radius;
     box-shadow: $shadow;
   }
@@ -20,11 +20,11 @@
     border: 0;
   }
   .address-container {
-    margin-bottom: $padding*4;
+    margin-bottom: $space*4;
     .address {
       display: flex;
       align-items: center;
-      gap: $padding;
+      gap: $space;
       i {
         display: flex;
         justify-content: center;
@@ -42,10 +42,10 @@
     li {
       list-style: none;
       display: flex;
-      margin-top: $padding;
+      margin-top: $space;
       justify-content: flex-start;
       align-items: center;
-      gap: $padding;
+      gap: $space;
       cursor: pointer;
       &:hover i {
         color: $secondary;
@@ -56,8 +56,8 @@
       display: flex;
       justify-content: flex-start;
       align-items: center;
-      gap: $padding;
-      margin-top: $padding;
+      gap: $space;
+      margin-top: $space;
       &:hover {
         .fa-facebook {
           color: $facebook;
@@ -90,7 +90,7 @@
     flex-direction: column;
     .contact-text {
       flex-direction: row;
-      gap: $padding;
+      gap: $space;
     }
   }
 }

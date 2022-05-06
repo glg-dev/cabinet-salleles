@@ -2,19 +2,25 @@
   background: transparent;
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: $space;
   .presentation {
     display: flex;
     flex-direction: row-reverse;
-    gap: $padding;
+    gap: $space;
     .presentation__text {
+      display: flex;
+      flex-direction: column;
+      gap: $space;
       background: #FFF;
       border: 1px solid $primary;
       border-radius: 15px;
       box-shadow: $shadow;
-      padding: $padding;
+      padding: $space;
       width: 50%;
       height: 600px;
+      & h2 {
+        text-align: center;
+      }
     }
   }
   .article-card {
@@ -23,7 +29,14 @@
     justify-content: center;
     align-items: center;
     p {
-      padding: $padding 0;
+      padding: $space 0;
+    }
+  }
+  h3 {
+    align-self: start;
+    color: $secondary;
+    & ~ p {
+      padding-top: 0!important;
     }
   }
 

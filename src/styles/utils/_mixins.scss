@@ -1,0 +1,13 @@
+@mixin card {
+  border: 1px solid $primary;
+  border-radius: $radius;
+  box-shadow: $shadow;
+  padding: $space;
+
+}
+
+@mixin slide {
+  padding: $space;
+  border-radius: $radius;
+  box-shadow: $shadow;
+}

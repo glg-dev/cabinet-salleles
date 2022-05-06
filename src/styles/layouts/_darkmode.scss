@@ -1,31 +1,21 @@
 body.dark {
-  color: #000;
   #root {
     background: rgba($color: #000, $alpha: .6);
   }
   .title {
     background: rgba($color: #000, $alpha: .6);
-    color: $primary;
-    h1, h2 {
-      text-shadow: 1px 0 $secondary
-    }
   }
   .nav-container {
     background: rgba($color: #000, $alpha: .4);
-    a {
-      color: $darkmode-font;
-      &.navActive {
-        background: rgba($color: #FFF, $alpha: .4);
-        color: $secondary;
-      }
-  
+    .navActive {
+      background: rgba($color: #FFF, $alpha: .4);
     }
   }
   .home, .blog, .profiles, .contact .container{
     background: #888;
   }
   .article-card, .presentation .presentation__text {
-    background: $secondary;
+    background: $black;
     color: $darkmode-font;
   }
   .profiles h2 {
@@ -34,9 +24,5 @@ body.dark {
   }
   .curriculum, .datas {
     background: $secondary;
-    .article-content:nth-of-type(odd) .date,
-    .article-content:nth-of-type(even) .name  {
-      color: $darkmode-font;
-    }
   }
 }

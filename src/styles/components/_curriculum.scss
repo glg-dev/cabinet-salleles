@@ -1,5 +1,5 @@
 .curriculum {
-  padding: $padding;
+  padding: $space;
   border-top: 1px solid $primary;
   &:nth-child(1) {
     border-top: none;
@@ -9,14 +9,5 @@
     justify-content: flex-start;
     gap: 10px 30px;
     margin-top: 10px;
-    .date {
-      font-weight: bold;
-    }
-    &:nth-of-type(odd) .name {
-      color: $secondary;
-    }
-  }
-  span {
-    font-size: 12px;
   }
 }

@@ -1,0 +1,140 @@
+body {
+  font-family: $font-2;
+  color: $black;
+  text-align: justify;
+  @media screen and (max-width: 740px) {
+    font-size: 14px;
+  }
+  &.dark {
+    color: #000;
+    .title {
+      color: $primary;
+      h1, h2 {
+        text-shadow: 1px 0 $secondary
+      }
+    }
+    a {
+      color: $darkmode-font;
+      &.navActive {
+        color: $secondary;
+      }
+    }
+    .article-card, .presentation .presentation__text {
+      color: $darkmode-font;
+    }
+    .profiles h2 {
+      text-shadow: none;
+    }
+    .curriculum, .datas {
+      .article-content.date,
+      .article-content:nth-of-type(odd) .name  {
+        color: $darkmode-font;
+      }
+    }
+    strong, h3 {
+      color: $primary;
+    } 
+  }
+}
+
+.header {
+  h1, h2 {
+    font-family: $font-1;
+    font-weight: 500;
+    text-shadow: 1px 0 $secondary, 2px 0 $primary, 3px 0 #000;
+  }
+  h1 {
+    font-size: 5.5em;
+  }
+  h2 {
+    font-size: 3.7em;
+  }
+  @media screen and (max-width: 930px) {
+    h1 {
+      font-size: 4em;
+    }
+    h2 {
+      font-size: 2em;
+    }
+  }
+  @media screen and (max-width: 357px) {
+    h1 {
+      font-size: 2.5em;
+    }
+    h2 {
+      font-size: 1.5em;
+    }
+  }
+}
+
+h1, h2 {
+  font-family: $font-3;
+  @media screen and (max-width: 418px) {
+    text-align: center;
+  }    
+}
+
+h3, .navbar {
+  font-family: $font-3;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+strong {
+  font-weight: bold;
+  color: $secondary;
+}
+
+.navbar a {
+  color: $black;
+  font-weight: bold;
+  &:hover {
+    transform: scale(1.05);
+    color: $secondary;
+  }
+  @media screen and (max-width: 644px) {
+    font-size: 12px;
+  }
+}
+
+button.rdv-doctolib {
+  font-family: $font-2;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-weight: bold;
+  color: #FFF;
+}
+
+.carousel {
+  color: #a0a0a0;
+}
+
+.curriculum {
+  .article-content {
+    .date {
+      font-weight: bold;
+    }
+    &:nth-of-type(odd) .name {
+      color: $secondary;
+    }
+  }
+  span {
+    font-size: 12px;
+  }
+}
+
+.title, .fa-moon, .fa-sun {
+  color: $secondary;
+}
+
+.tag {
+  color: $black;
+}
+
+.footer {
+  color: white;
+  font-size: .75rem;
+}

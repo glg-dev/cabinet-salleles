@@ -1,6 +1,5 @@
 .navbar {
   background: url(../../assets/Croquis.jpg) center/cover fixed;
-  font-family: $font-3;
   height: 60px;
   margin-bottom: 50px;
   box-shadow: $shadow;
@@ -13,10 +12,7 @@
     background: rgba($color: #FFF, $alpha: .8);
   }
   a {
-    padding: $padding;
-    text-decoration: none;
-    color: $black;
-    font-weight: bold;
+    padding: $space;
     transition: .3s;
     height: 100%;
     display: flex;
@@ -27,10 +23,6 @@
       border-radius: 25px;
       box-shadow: $shadow;
     }
-    &:hover {
-      transform: scale(1.05);
-      color: $secondary;
-    }
   }
   &.fixed-nav {
     position: fixed;
@@ -40,9 +32,8 @@
     z-index: 10;
   }
   @media screen and (max-width: 644px) {
-    font-size: 12px;
     a {
-      padding: $padding / 2;
+      padding: $space / 2;
     }
   }
   @media screen and (max-width: 387px) {

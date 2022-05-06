@@ -1,15 +1,12 @@
 .header {
   position: relative;
-  border-bottom: 0;
+  border: none;
   height: 220px;
-  color: $secondary;
   margin-bottom: 100px;
   background: rgba(116, 235, 223, 0.16);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
-  border-radius: 16px; 
-  border: 1px solid rgba(220, 220, 220, 0.56);   
 
   .header-bg {
     width: 100%;
@@ -21,53 +18,32 @@
     position: absolute;
     top: 0;
     left: 0;
-    padding: $padding $padding*3;
+    padding: $space $space*3;
     border-bottom: 0;
     height: 100%;
     width: 100%;
-    color: $secondary;
     .title-content {
-      padding: 0 $padding $padding $padding;
+      padding: 0 $space $space $space;
     }
     .title-img {
       height: 100%;
       img {
         height: 100%;
-        margin-right: $padding;
+        margin-right: $space * 2;
         object-fit: cover;
         filter: brightness(50%);
       }
-    }
-    h1 {
-      font-family: $font-1;
-      font-weight: 500;
-      font-size: 5.5em;
-      text-shadow: 1px 0 $secondary, 2px 0 $primary, 3px 0 #000;
-    }
-    h2 {
-      font-family: $font-1;
-      font-weight: 500;
-      font-size: 3.7em;
-      text-shadow: 1px 0 $secondary, 2px 0 $primary, 3px 0 #000;
     }
   }
 
   @media screen and (max-width: 930px) {
     height: 150px;
-    .title {
-      h1 {
-        font-size: 4em;
-      }
-      h2 {
-        font-size: 2em;
-      }
-    }
   }
 
   @media screen and (max-width: 600px) {
     height: 170px;
     .title {
-      padding-left: $padding*2;
+      padding-left: $space*2;
       img {
         display: none;
       }
@@ -77,15 +53,7 @@
   @media screen and (max-width: 414px) {
     // height: 250px;
     .title {
-      padding: $padding
-    }
-  }
-  @media screen and (max-width: 357px) {
-    .title h1 {
-      font-size: 2.5em;
-    }
-    .title h2 {
-      font-size: 1.5em;
+      padding: $space
     }
   }
 }

@@ -5,11 +5,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: $padding;
+  gap: $space;
   background: $secondary;
-  color: white;
-  padding: $padding / 2;
-  font-size: .75rem;
+  padding: $space / 2;
   z-index: 2;
   a:hover {
     transform: scale(1.3);

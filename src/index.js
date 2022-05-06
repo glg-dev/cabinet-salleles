@@ -4,7 +4,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Button from './components/Button';
 import Footer from './components/Footer';
 import Header from './components/Header';
-import Blog from './pages/Blog';
+// import Blog from './pages/Blog';
 import Contact from './pages/Contact';
 import Error from './pages/Error';
 import Home from './pages/Home';

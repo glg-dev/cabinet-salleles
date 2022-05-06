@@ -34,11 +34,8 @@
       transition: transform .4s cubic-bezier(.45, -1.12, .35, 1.78);
     }
   }
-  .fa-moon, .fa-sun {
-    color: $secondary;
-  }
   @media screen and (max-width: 500px) {
     top: inherit;
-    bottom: $padding;
+    bottom: $space;
   }
 }

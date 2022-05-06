@@ -3,10 +3,7 @@ button.rdv-doctolib {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-transform: uppercase;
-  font-weight: bold;
-  color: #FFF;
-  padding: $padding;
+  padding: $space;
   background: $doctolib;
   border-radius: 8px;
   border: none;
@@ -19,7 +16,7 @@ button.rdv-doctolib {
     bottom: 0;
     right: 0;
     z-index: 1;
-    margin: $padding*2 $padding;
+    margin: $space*2 $space;
     opacity: 0.9;
     &:hover {
       opacity: 1;

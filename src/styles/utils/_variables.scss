@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika&family=Italianno&family=Merienda&display=swap');
+
+$font-1: 'Italianno', cursive;
+$font-2: 'Andika', sans-serif;
+$font-3: 'Merienda', cursive;
+
+$primary: #74EBDF;
+$secondary: #1E6A88;
+$black: #0d0f2a;
+$white: #D3F1F0;
+$bg-gradient: linear-gradient(to right, $primary, $secondary);
+$white-gradient: linear-gradient(45deg, $white, transparent);
+$darkmode-font: #D3E9F3;
+$facebook: #1877F2;
+$doctolib: #107ACA;
+
+$space: 20px;
+$radius: 15px;
+$shadow: 1px 1px 4px 0 $secondary;

@@ -11,10 +11,10 @@ body.dark {
       background: rgba($color: #FFF, $alpha: .4);
     }
   }
-  .home, .blog, .profiles, .contact .container{
+  .home, .blog{
     background: #888;
   }
-  .article-card, .presentation .presentation__text {
+  .article-card, .presentation .presentation__text, .contact .container {
     background: $black;
     color: $darkmode-font;
   }
@@ -24,5 +24,6 @@ body.dark {
   }
   .curriculum, .datas {
     background: $secondary;
+    border-radius: $radius;
   }
 }

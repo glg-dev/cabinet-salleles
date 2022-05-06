@@ -1,5 +1,5 @@
 import React from 'react';
-import DarkmodeButton from './DarkmodeButton';
+// import DarkmodeButton from './DarkmodeButton';
 import Navigation from './Navigation';
 import logo from '../assets/osteo_logo.png';
 
@@ -16,7 +16,7 @@ const Header = () => {
           <img src={logo} alt="logo" />
         </div>
       </div>
-      <DarkmodeButton />
+      {/* <DarkmodeButton /> */}
       <Navigation />
     </div>
   );
